@@ -1,0 +1,50 @@
+@media only screen and (max-width: 600px) {
+  html {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .homescreen-panel {
+    padding: 20vh 10vw;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .profile-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -13.5%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .about-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    overflow: visible;
+    min-height:60vh;
+    padding: 10vw;
+  }
+
+  .padleft {
+    padding-left: 0;
+  }
+
+  .padright {
+    padding-right: 0;
+  }
+
+  .profile-image {
+    height: 50vmin;
+    width: 50vmin;
+    max-width: none;
+  }
+
+
+}
+
