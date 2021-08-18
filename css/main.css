@@ -16,15 +16,13 @@ html {
   font-family: "Overpass Mono", monospace;
   font-weight: normal;
   color: #222;
-  font-size: 0.9em;
+  font-size: 0.95em;
   line-height: 1.4;
 }
 
 .page {
   height: 100vh;
 }
-
-
 
 .container {
   height: 100vh;
@@ -76,7 +74,7 @@ html {
 
 .fill-right {
   align-items: center;
-  min-width: 65vw;
+  min-width: 62.4vw;
   min-height: 100vh;
 }
 
@@ -113,13 +111,10 @@ ul {
 
 .nav-bar {
   background: white;
-  /*position: -webkit-sticky;*/
-  /*position: sticky;*/
   margin-left: 15vw;
   margin-right: 15vw;
   padding-top: 3vh;
   padding-bottom: -3vh;
-  /*top: 0;*/
 }
 
 .leftcolumn {
