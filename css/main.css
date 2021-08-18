@@ -129,6 +129,7 @@ ul {
   width: 50vmin;
   height: auto;
   min-width:200px;
+  min-height: 200px;
   max-width: 100%;
 }
 
