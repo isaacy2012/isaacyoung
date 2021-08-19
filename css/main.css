@@ -182,7 +182,7 @@ section {
 }
 
 .selected {
-  opacity: 70%;
+  color: grey !important;
 }
 
 .no-vertical-margin {
