@@ -4,6 +4,11 @@
     padding-right: 0;
   }
 
+  .container {
+    scroll-snap-type: none;
+    overflow: auto;
+  }
+
   .nav-bar {
     margin-left: 10vw;
     margin-right: 10vw;

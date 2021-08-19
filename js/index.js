@@ -21,7 +21,6 @@ function loadDarkMode() {
   return ret;
 }
 
-
 refresh();
 thisRefresh();
 function toggleDarkMode() {
