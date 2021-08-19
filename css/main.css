@@ -173,8 +173,20 @@ section {
   padding-left: 1vw;
 }
 
+.sideparagraph {
+  border-left: 1px solid;
+}
+
 .padright {
   padding-right: 1vw;
+}
+
+.selected {
+  opacity: 70%;
+}
+
+.no-vertical-margin {
+  margin: 0;
 }
 
 

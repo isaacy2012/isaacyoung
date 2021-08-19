@@ -1,22 +1,9 @@
-#img-unitybooks {
-  max-width: 80vw;
-  max-height: 50vh;
-}
-
-#img-purplesky {
-  max-width: 60vw;
-  max-height: 50vh;
-}
-
-#img-orange {
-  max-width: 80vw;
-}
 
 .grid-container {
   display: grid;
 }
 
-@media all and (min-width: 600px) {
+@media all and (min-width: 800px) {
 
   .fullpage-video {
     position:absolute;
@@ -39,10 +26,14 @@
     background-color: white;
     padding: 10px;
     position: absolute;
-    right: 0;
-    top: 10px;
-    z-index: 1001;
+    /*right: 0;*/
+    /*top: 26px;*/
+    /*z-index: 1001;*/
+    right: 50vw;
+    top: 40vh;
+    z-index: 999;
   }
+
   .image-container {
     position: relative;
     height: 100vh;
@@ -72,6 +63,20 @@
     position: absolute;
     left: 5vw;
     top: 50vh;
+  }
+
+  #img-unitybooks {
+    max-width: 80vw;
+    max-height: 50vh;
+  }
+
+  #img-purplesky {
+    max-width: 60vw;
+    max-height: 50vh;
+  }
+
+  #img-orange {
+    max-width: 80vw;
   }
 
   .hover-img:hover {

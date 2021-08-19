@@ -18,7 +18,7 @@
 
 
   h1 {
-    font-size: 15vw;
+    font-size: 13vw;
   }
 
   li {
@@ -43,6 +43,23 @@
     margin-top: -18%;
     margin-left: 0;
     margin-right: 0;
+  }
+
+  .photography-title {
+    padding-top: 32px;
+    margin-left: -6px;
+    margin-bottom: 10%;
+  }
+
+  .image-container {
+    position: relative;
+    height: auto;
+    overflow: hidden;
+  }
+
+  .hover-img {
+    width: 80vw;
+    margin-bottom: 10%;
   }
 
   .about-panel {
