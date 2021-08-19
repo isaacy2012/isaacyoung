@@ -10,8 +10,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -25,11 +25,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propDebugger" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.1.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Isaac Young\Documents\GitHub\isaacyoung\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Isaac Young\Documents\GitHub\isaacyoung\js" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -42,7 +51,8 @@
       <workItem from="1629209460844" duration="4326000" />
       <workItem from="1629270137844" duration="3060000" />
       <workItem from="1629278875907" duration="4321000" />
-      <workItem from="1629292890304" duration="9249000" />
+      <workItem from="1629292890304" duration="9398000" />
+      <workItem from="1629340110865" duration="6152000" />
     </task>
     <servers />
   </component>

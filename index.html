@@ -18,6 +18,7 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/desktop.css">
   <link rel="stylesheet" href="css/mobile.css">
   <link rel="stylesheet" href="css/minimum.css">
   <link rel="stylesheet"
@@ -31,13 +32,15 @@
 
 <body>
 
+<a href="" id="dark-mode-toggle" onclick="toggleDarkMode()">Dark Mode</a>
+
 <section class="container">
   <!-- Add your site or application content here -->
   <section class="child">
     <div class="homescreen-panel center-vertical">
       <div class="row">
         <div class="column leftcolumn">
-          <img class="profile-image" src="./img/isaac.jpg" alt="Me">
+          <img id="profile-image" src="./img/isaac.jpg" alt="Me">
         </div>
         <div class="column rightcolumn">
           <div class="profile-title">
@@ -69,10 +72,10 @@
         I
         like to develop applications, keep up with current trends, and learn new languages - I am currently learning
         Kotlin,
-        as Android development becomes increasingly "Kotlin-first". <br><br>At university, I have achieved all A+&nbsp;grades
+        as Android development becomes increasingly Kotlin-first. <br><br>At university, I have achieved all A+&nbsp;grades
         throughout the courses I have taken so far, and&nbsp;I was also the top ranked student in SWEN221 (T1 2021),
         ENGR110
-        (T2 2020), and ENGR101 (T1 2020).<br><br>During the university breaks, I have worked as a freelance programmer,
+        (T2 2020), and ENGR101 (T1 2020).<br><br>During the trimester break, I worked as a freelance programmer,
         working for people from all over the world! I've worked on some really fun projects, including Java
         applications,
         Android apps, and Python scripts.
@@ -83,4 +86,6 @@
 
 </body>
 
+<script src="js/shared.js"></script>
+<script src="js/index.js"></script>
 </html>

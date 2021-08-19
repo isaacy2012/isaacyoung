@@ -1,0 +1,42 @@
+@media all and (min-width: 600px) {
+  .container {
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+    overflow: auto;
+  }
+
+  .child {
+    scroll-snap-align: start;
+  }
+
+  .page-content {
+    height: 100vh;
+  }
+
+  .description-column {
+    width: 33%;
+  }
+
+  .project-description {
+    margin-right: 10%;
+  }
+
+  .fill-right {
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+  }
+
+  .img-container {
+    float: left;
+    width: 50%;
+  }
+
+  .description-img {
+    max-width: 25vw;
+    max-height: 85vh;
+    margin-right: 1vw;
+  }
+
+
+}
