@@ -19,7 +19,9 @@ html {
   line-height: 1.4;
 }
 
-
+::selection {
+  background-color: #ffff00AA !important;
+}
 
 .container {
   scroll-behavior: smooth;
