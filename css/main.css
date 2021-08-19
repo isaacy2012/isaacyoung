@@ -112,7 +112,7 @@ ul {
 .homescreen-panel {
   overflow: hidden;
   min-height: 60vh;
-  padding: 20vh 20vw;
+  padding: 20vh calc(35vw - 180px);
 }
 
 .about-panel {
@@ -121,7 +121,7 @@ ul {
   justify-content: center;
   overflow: visible;
   min-height:55vh;
-  padding: 20vh calc(30vw - 100px);
+  padding: 20vh calc(40vw - 220px);
 }
 
 .leftcolumn-link:link {
@@ -170,19 +170,21 @@ section {
 }
 
 .padleft {
-  padding-left: 1vw;
-}
-
-.sideparagraph {
-  border-left: 1px solid;
+  padding-left: calc(0.5vw + 15px);
 }
 
 .padright {
-  padding-right: 1vw;
+  padding-right: calc(0.5vw + 15px);
 }
 
-.selected {
-  color: grey !important;
+.selected:before {
+  content: "\00a0\00a0" !important;
+  white-space: pre;
+}
+
+.selected:after {
+  content: "\00a0\00a0" !important;
+  white-space: pre;
 }
 
 .no-vertical-margin {

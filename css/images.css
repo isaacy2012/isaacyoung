@@ -23,13 +23,14 @@
   }
 
   .photography-title {
+    /*mix-blend-mode: difference;*/
     background-color: white;
     padding: 10px;
     position: absolute;
     /*right: 0;*/
     /*top: 26px;*/
     /*z-index: 1001;*/
-    right: 50vw;
+    left: 15vw;
     top: 40vh;
     z-index: 999;
   }
@@ -48,7 +49,7 @@
   #img-orange {
     position: absolute;
     left: 55vw;
-    top: 40vh;
+    bottom: -10vh;
     width: 25vw;
   }
 

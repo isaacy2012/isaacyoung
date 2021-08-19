@@ -41,6 +41,11 @@
     text-align: left;
   }
 
+  .sideparagraph {
+    border-left: 1px solid;
+  }
+
+
   .description-column {
     width: 33%;
   }
