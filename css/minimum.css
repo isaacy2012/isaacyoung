@@ -1,10 +1,26 @@
-@media all and (max-height: 600px) {
+@media all and (max-height: 700px) {
   h1 {
     font-size: 60px;
   }
 
   h2 {
     font-size: 24px;
+  }
+
+  .container {
+    height: 100vh;
+    scroll-snap-type: none;
+    overflow: auto;
+  }
+
+  .child {
+    scroll-snap-align: none;
+  }
+
+  .description-img {
+    max-width: 25vw;
+    max-height: none;
+    margin-right: 1vw;
   }
 
 }

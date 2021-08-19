@@ -36,14 +36,6 @@ html {
 }
 
 
-.pillbox_bg {
-  background: crimson;
-}
-
-.multiqr-bg {
-  background: cornflowerblue;
-}
-
 
 .clearfix::after {
   content: "";
@@ -163,6 +155,11 @@ ul {
   position: relative;
   vertical-align: top;
   max-width: 100%;
+}
+
+section {
+  margin-bottom: -15px;
+  margin-top: -15px;
 }
 
 .project-title {
