@@ -13,6 +13,10 @@
     text-align: right;
   }
 
+  .about-subtitle {
+    text-align: right;
+  }
+
   .page-column {
     height: 1px;
   }
@@ -25,7 +29,7 @@
     height: 100vh;
   }
 
-  .leftcolumn-link {
+  .leftcolumn-link:link {
     text-align: right;
   }
 
