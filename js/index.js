@@ -14,11 +14,11 @@ function saveDarkMode() {
 }
 
 function loadDarkMode() {
-  let ret = JSON.parse(localStorage["darkmode"]);
+  let ret = localStorage["darkmode"];
   if (ret === undefined) {
-    return "false";
+    return false;
   }
-  return ret;
+  return JSON.parse(ret);
 }
 
 refresh();
