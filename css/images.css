@@ -1,0 +1,88 @@
+#img-unitybooks {
+  max-width: 80vw;
+  max-height: 50vh;
+}
+
+#img-purplesky {
+  max-width: 60vw;
+  max-height: 50vh;
+}
+
+#img-orange {
+  max-width: 80vw;
+}
+
+.grid-container {
+  display: grid;
+}
+
+@media all and (min-width: 600px) {
+
+  .fullpage-video {
+    position:absolute;
+    top:0;
+    left:0;
+    min-height: 100vh;
+    min-width: 100vw;
+  }
+
+  .simracing-title {
+    background-color: white;
+    padding: 10px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: 1001;
+  }
+
+  .photography-title {
+    background-color: white;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    z-index: 1001;
+  }
+  .image-container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+  }
+  #img-unitybooks {
+    position: absolute;
+    left: 30vw;
+    top: 25vh;
+  }
+
+  #img-orange {
+    position: absolute;
+    left: 55vw;
+    top: 40vh;
+    width: 25vw;
+  }
+
+  #img-train {
+    position: absolute;
+    left: 14vw;
+    top: 5vh;
+    width: 25vw;
+  }
+
+  #img-purplesky {
+    position: absolute;
+    left: 5vw;
+    top: 50vh;
+  }
+
+  .hover-img:hover {
+    filter: none;
+    transition: 0.5s;
+    z-index: 1000;
+    transform: scale(1.05);
+  }
+
+  .hover-img:not(hover) {
+    filter: grayscale(100);
+    transition: 0.5s;
+  }
+}

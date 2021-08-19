@@ -1,4 +1,4 @@
-@media all and (min-width: 600px) {
+@media all and (min-width: 800px) {
   .container {
     height: 100vh;
     scroll-snap-type: y mandatory;
@@ -9,12 +9,32 @@
     scroll-snap-align: start;
   }
 
+  .about-title {
+    text-align: right;
+  }
+
   .page-column {
     height: 1px;
   }
 
   .page-content {
     height: 100vh;
+  }
+
+  .autoplay-video {
+    height: 100vh;
+  }
+
+  .leftcolumn-link {
+    text-align: right;
+  }
+
+  .text-align-right {
+    text-align: right;
+  }
+
+  .text-align-left {
+    text-align: left;
   }
 
   .description-column {
@@ -28,6 +48,14 @@
   .fill-right {
     align-items: center;
     width: 100%;
+    min-height: 100vh;
+    height: 100%;
+  }
+
+  .video-right {
+    align-items: center;
+    width: 100%;
+    max-width: 66vw;
     min-height: 100vh;
     height: 100%;
   }

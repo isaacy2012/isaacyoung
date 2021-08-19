@@ -19,10 +19,6 @@ html {
   line-height: 1.4;
 }
 
-.dark-mode {
-  background-color: black;
-  color: white;
-}
 
 
 .container {
@@ -61,6 +57,7 @@ h1 {
 
 h2 {
   font-size: 4vmin;
+  margin-bottom: 0;
 }
 
 li {
@@ -77,8 +74,8 @@ ul {
 .nav-bar {
   margin-left: 15vw;
   margin-right: 15vw;
-  padding-top: 3vh;
-  padding-bottom: -3vh;
+  padding-top: 5vh;
+  padding-bottom: -5vh;
 }
 
 .leftcolumn {
@@ -123,8 +120,8 @@ ul {
   flex-direction: row;
   justify-content: center;
   overflow: visible;
-  min-height:60vh;
-  padding: 20vh 30vw;
+  min-height:55vh;
+  padding: 20vh calc(30vw - 100px);
 }
 
 .center-vertical {
@@ -162,7 +159,7 @@ section {
   margin-top: -15px;
 }
 
-.project-title {
+.page-title {
   padding-top: 32px;
   margin-left: -6px;
 }
