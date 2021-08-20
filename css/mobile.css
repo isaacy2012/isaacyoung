@@ -102,6 +102,18 @@
     padding-bottom: 5%;
   }
 
+  .clearfix {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+  }
+
+  .img-container {
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+  }
+
   .description-img {
     max-width: 75vw;
     max-height: 80vh;

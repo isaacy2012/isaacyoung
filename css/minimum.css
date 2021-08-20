@@ -1,4 +1,4 @@
-@media all and (max-height: 700px) {
+@media all and (max-height: 700px) and (min-width: 800px) {
   h1 {
     font-size: 60px;
   }
