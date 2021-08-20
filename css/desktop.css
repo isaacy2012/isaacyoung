@@ -87,5 +87,10 @@
     margin-right: 1vw;
   }
 
+  .noradius {
+    border-radius: 0 !important;
+  }
+
+
 
 }
