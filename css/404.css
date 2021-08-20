@@ -1,0 +1,31 @@
+body {
+  overflow: hidden;
+}
+.pad-panel {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height:55vh;
+  padding: 20vh calc(45vw - 220px);
+}
+
+.margin-text {
+  margin-top: 2em;
+}
+
+
+#vim-escape {
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-family: "Overpass Mono", monospace;
+  border-left:0;
+  border-right:0;
+  border-bottom:0;
+  border-top:0;
+  outline: 0;
+}
+
+#vim-escape:focus {outline:none!important;}
