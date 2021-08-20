@@ -121,5 +121,9 @@
     margin-top: 10%;
     margin-bottom: 10%;
   }
+
+  .autoplay-video {
+    width: 100vw;
+  }
 }
 
