@@ -64,9 +64,14 @@
   .video-right {
     align-items: center;
     width: 100%;
-    max-width: 66vw;
+    max-width: 100vw;
     min-height: 100vh;
     height: 100%;
+  }
+
+  .child {
+    max-height: 100vw;
+    overflow: hidden;
   }
 
   .img-container {
@@ -75,6 +80,7 @@
   }
 
   .description-img {
+    border-radius: 1vw;
     margin: 5vh;
     max-width: 25vw;
     max-height: 85vh;
