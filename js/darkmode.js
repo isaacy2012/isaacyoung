@@ -25,4 +25,8 @@ function loadDarkMode() {
   return JSON.parse(ret);
 }
 
+function saveDarkMode() {
+  localStorage["darkmode"] = JSON.stringify(darkmode);
+}
+
 refresh();
