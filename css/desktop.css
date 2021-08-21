@@ -27,6 +27,10 @@
     scroll-snap-align: start;
   }
 
+  .profile-title {
+    margin-left: -11%;
+  }
+
   .about-title {
     text-align: right;
   }
