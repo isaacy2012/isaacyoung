@@ -23,7 +23,7 @@ html {
   background-color: #ffff00AA !important;
 }
 
-.container {
+#container {
   scroll-behavior: smooth;
   overflow: auto;
 }
@@ -33,6 +33,17 @@ html {
   padding-right: 32px;
 }
 
+#toTopButton {
+  background-color: white;
+  display: block;
+  height: 0;
+  opacity: 0;
+  transition: opacity 0.3s;
+  line-height: 1;
+  padding-top: 0;
+  padding-bottom: 0;
+  z-index: 1001;
+}
 
 
 .clearfix::after {

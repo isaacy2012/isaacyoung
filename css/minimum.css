@@ -7,7 +7,7 @@
     font-size: 24px;
   }
 
-  .container {
+  #container {
     height: 100vh;
     scroll-snap-type: none;
     overflow: auto;

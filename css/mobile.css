@@ -1,12 +1,19 @@
 @media only screen and (max-width: 800px) {
   html {
+    scroll-behavior: smooth;
     padding-left: 0;
     padding-right: 0;
   }
 
-  .container {
+  #container {
     scroll-snap-type: none;
     overflow: auto;
+  }
+
+  #toTopButton {
+    position: fixed;
+    top: 95vh;
+    right: 5vw;
   }
 
   .nav-bar {
@@ -19,6 +26,10 @@
 
   h1 {
     font-size: 13vw;
+  }
+
+  h2 {
+    font-size: 6vw;
   }
 
   li {
@@ -85,7 +96,7 @@
     max-width: none;
   }
 
-  .container {
+  #container {
     scroll-behavior: smooth;
     min-height: 100vh;
     height: auto;
@@ -129,6 +140,7 @@
   .piano-column {
     display: inline-block;
     text-align: center;
+    margin-bottom: 50px;
   }
 
   #piano-background {

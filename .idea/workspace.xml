@@ -13,6 +13,8 @@
         <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="TypeScript File" />
+        <option value="tsconfig.json" />
       </list>
     </option>
   </component>
@@ -29,7 +31,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+    <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.1.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -56,11 +58,22 @@
       <workItem from="1629292890304" duration="9398000" />
       <workItem from="1629340110865" duration="32674000" />
       <workItem from="1629387960591" duration="846000" />
-      <workItem from="1629419768494" duration="30113000" />
+      <workItem from="1629419768494" duration="30677000" />
+      <workItem from="1629511802013" duration="3901000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/js/scrollToTop.js" />
+        <option value="$PROJECT_DIR$/js/scrollToTop.js.map" />
+      </list>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
