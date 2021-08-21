@@ -5,6 +5,17 @@
     overflow: auto;
   }
 
+  #top {
+    position: relative;
+  }
+
+  #about-banner {
+    position: absolute;
+    text-align: right;
+    bottom: 15px;
+    right: 20px;
+  }
+
   #toTopButton {
     position: fixed;
     top: 3.5vh;
@@ -51,8 +62,6 @@
   .sideparagraph {
     border-left: 1px solid;
   }
-
-
 
   .description-column {
     width: 33%;

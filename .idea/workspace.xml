@@ -59,7 +59,7 @@
       <workItem from="1629340110865" duration="32674000" />
       <workItem from="1629387960591" duration="846000" />
       <workItem from="1629419768494" duration="30677000" />
-      <workItem from="1629511802013" duration="3901000" />
+      <workItem from="1629511802013" duration="7661000" />
     </task>
     <servers />
   </component>
@@ -69,6 +69,16 @@
       <list>
         <option value="$PROJECT_DIR$/js/scrollToTop.js" />
         <option value="$PROJECT_DIR$/js/scrollToTop.js.map" />
+        <option value="$PROJECT_DIR$/js/about.js" />
+        <option value="$PROJECT_DIR$/js/about.js.map" />
+        <option value="$PROJECT_DIR$/js/darkmode.js.map" />
+        <option value="$PROJECT_DIR$/js/darkmode.js" />
+        <option value="$PROJECT_DIR$/js/index.js" />
+        <option value="$PROJECT_DIR$/js/index.js.map" />
+        <option value="$PROJECT_DIR$/js/projects.js" />
+        <option value="$PROJECT_DIR$/js/projects.js.map" />
+        <option value="$PROJECT_DIR$/js/404.js.map" />
+        <option value="$PROJECT_DIR$/js/404.js" />
       </list>
     </option>
   </component>

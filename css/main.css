@@ -23,6 +23,10 @@ html {
   background-color: #ffff00AA !important;
 }
 
+#about-banner {
+  font-size: 14px;
+}
+
 #container {
   scroll-behavior: smooth;
   overflow: auto;
