@@ -63,10 +63,10 @@
 
       <div class="center-vertical padright">
         <h2 class="about-title no-vertical-margin">Projects</h2>
-        <a href="#Android" class="leftcolumn-link">Android</a>
-        <a href="#.NET" class="leftcolumn-link">.NET</a>
-        <a href="#Processing" class="leftcolumn-link">Java</a>
-        <a href="#Python" class="leftcolumn-link">Python</a>
+        <a href="#MultiQR" class="leftcolumn-link">Android</a>
+        <a href="#CSVC" class="leftcolumn-link">.NET</a>
+        <a href="#IFR_Simulator" class="leftcolumn-link">Java</a>
+        <a href="#GetGradeECS" class="leftcolumn-link">Other</a>
       </div>
       <div class="center-vertical">
         <p class="paragraph sideparagraph padleft">
@@ -85,7 +85,7 @@
   </section>
 
   <hr>
-  <section id="Android" class="child">
+  <section id="MultiQR" class="child">
     <div class="row">
       <div class="page-column  description-column page-content">
         <h1 class="page-title">MultiQR</h1>
@@ -133,7 +133,7 @@
 
 
   <hr>
-  <section class="child">
+  <section id="pillBox" class="child">
     <div class="row">
       <div class="page-column  description-column page-content">
         <h1 class="page-title">pillBox</h1>
@@ -162,11 +162,14 @@
         <div class="pillbox_bg fill-right center-vertical">
           <div class="clearfix">
             <div class="img-container">
-              <img class="description-img" draggable="false" src="./img/pillbox/home_screen_gif_compressed.gif"
-                   alt="Home Screen">
+              <video class="description-img" autoplay loop muted style="pointer-events: none;">
+                <source src="./img/pillbox/onboarding.mp4" type="video/mp4">
+                <img class="description-img" draggable="false" src="./img/pillbox/widget.png" alt="Homescreen Widget">
+              </video>
             </div>
             <div class="img-container">
-              <img class="description-img" draggable="false" src="./img/pillbox/widget.png" alt="Refill Screen">
+              <img class="description-img" draggable="false" src="./img/pillbox/home_screen_gif_compressed.gif"
+                   alt="Home Screen">
             </div>
           </div>
         </div>
@@ -175,7 +178,7 @@
   </section>
 
   <hr>
-  <section class="child">
+  <section id="IDScanner" class="child">
     <div class="row">
       <div class="page-column  description-column page-content">
         <h1 class="page-title">IDScanner</h1>
@@ -203,7 +206,7 @@
               <img class="description-img" draggable="false" src="./img/idscanner/home_screen.png" alt="Home Screen">
             </div>
             <div class="img-container">
-              <img class="description-img" draggable="false" src="./img/idscanner/regex_fail.png" alt="Refill Screen">
+              <img class="description-img" draggable="false" src="./img/idscanner/regex_fail.png" alt="Regex Failure">
             </div>
           </div>
         </div>
@@ -213,7 +216,7 @@
 
 
   <hr>
-  <section class="child">
+  <section id="Sunset" class="child">
     <div class="row">
       <div class="page-column  description-column page-content">
         <h1 class="page-title">Sunset</h1>
@@ -242,7 +245,7 @@
               <img class="description-img" draggable="false" src="./img/sunset/home-screen-gif.gif" alt="Home Screen">
             </div>
             <div class="img-container">
-              <img class="description-img" draggable="false" src="./img/sunset/archive.png" alt="Refill Screen">
+              <img class="description-img" draggable="false" src="./img/sunset/archive.png" alt="Archive">
             </div>
           </div>
         </div>
@@ -251,7 +254,54 @@
   </section>
 
   <hr>
-  <section id=".NET" class="child">
+  <section id="Noted" class="child">
+    <div class="row">
+      <div class="page-column  description-column page-content">
+        <h1 class="page-title">Noted</h1>
+        <h4>2018</h4>
+        <ul>
+          <!--            Play</a></li>-->
+          <li><a href="https://play.google.com/store/apps/details?id=com.innerCat.noted" target="_blank">Google Play</a></li>
+        </ul>
+        <h3>Lua, Solar2D</h3>
+        <p class="project-description">
+          I developed Noted for a high school project in 2018, using Lua and the CoronaSDK (now Solar2D) cross-platform SDK.
+          When I was learning the piano and how to read music at a young age, I found it difficult to learn how to read
+          notes - since my ear was better trained than my eyes, I would usually learn songs by ear.
+          <br><br>
+          To solve this problem for others like me, I designed Noted in order to engage people using gamification and animations in guided lessons.
+          <br><br>
+          Because CoronaSDK did not have libraries for many UI elements, I designed a lot of the UI elements in the app from
+          scratch. For example, when designing the rounded buttons, I used coordinate geometry to detect when a user's finger
+          had slipped off a button, triggering the bounce-back animation. These explorations in UI element design can be found
+          in the project prototype brief
+          <a href="https://notedapp.weebly.com/uploads/7/1/6/9/71696427/prototype_.pdf">here</a>.
+
+
+        </p>
+      </div>
+      <div class="page-column">
+        <div class="noted-bg fill-right center-vertical">
+          <div class="clearfix">
+            <div class="img-container">
+              <!--              <img class="description-img" draggable="false" src="./img/sunset/home-screen-gif.gif" alt="Home Screen">-->
+              <!--                <video id="ferrari-video" class="autoplay-video" autoplay muted>-->
+              <video class="description-img noted-description-img" autoplay controls>
+                <source src="./img/noted/noted_lesson.mp4" type="video/mp4">
+                <img class="description-img noted-description-img" draggable="false" src="./img/noted/home_screen.png" alt="Home Screen">
+              </video>
+            </div>
+            <div class="img-container">
+              <img class="description-img noted-description-img" draggable="false" src="./img/noted/gameplay.gif" alt="Gameplay">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr>
+  <section id="CSVC" class="child">
     <div class="row">
       <div class="page-column  description-column page-content">
         <h1 class="page-title">CSVC</h1>
@@ -298,7 +348,7 @@
   </section>
 
   <hr>
-  <section id="Processing" class="child">
+  <section id="IFR_Simulator" class="child">
     <div class="row">
       <div class="page-column  description-column page-content">
         <h1 class="page-title">IFR Simulator</h1>
@@ -332,7 +382,7 @@
   </section>
 
   <hr>
-  <section id="Python" class="child">
+  <section id="GetGradeECS" class="child">
     <div class="row">
       <div class="page-column  description-column page-content">
         <h1 class="page-title">GetGradeECS</h1>
@@ -368,50 +418,6 @@
     </div>
   </section>
 
-  <hr>
-  <section class="child">
-    <div class="row">
-      <div class="page-column  description-column page-content">
-        <h1 class="page-title">Noted</h1>
-        <h4>2020</h4>
-        <ul>
-          <!--            Play</a></li>-->
-          <li><a href="http://notedapp.weebly.com" target="_blank">Website</a></li>
-        </ul>
-        <h3>Lua, Solar2D</h3>
-        <p class="project-description">
-          I wrote GetGradeECS to get my grades from a University portal website. It checks for grades every
-          15-30 minutes, and uses the Gmail API for Python to send an email of any new grades. Features:
-          <br><br>
-          Automatic login
-          <br>
-          Automatically logs into the ECS Assessment Marks page by encrypting and storing the user's username and
-          password.
-          <br><br>
-          Active Hours
-          <br>
-          Checks a .ini file so that it only checks for grades between those times (e.g 9-17) for 9am to 5pm.
-        </p>
-      </div>
-      <div class="page-column">
-        <div class="sunset-bg fill-right center-vertical">
-          <div class="clearfix">
-            <div class="img-container">
-<!--              <img class="description-img" draggable="false" src="./img/sunset/home-screen-gif.gif" alt="Home Screen">-->
-                <!--                <video id="ferrari-video" class="autoplay-video" autoplay muted>-->
-              <video class="description-img">
-                <source src="./img/noted/noted_lesson.mp4" type="video/mp4">
-                Your browser does not support the video tag :(
-              </video>
-            </div>
-            <div class="img-container">
-              <img class="description-img" draggable="false" src="./img/sunset/archive.png" alt="Refill Screen">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 </div>
 </body>
 <script src="js/darkmode.js"></script>
