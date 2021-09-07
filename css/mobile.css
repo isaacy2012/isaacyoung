@@ -102,14 +102,9 @@
     overflow: visible;
   }
 
-  #about-banner {
-
-  }
-
-
   .fill-right {
     align-items: center;
-    min-height: 100vh;
+    /*min-height: 100vh;*/
     margin-top: 5%;
     padding-top: 5%;
     padding-bottom: 5%;
@@ -147,7 +142,7 @@
 
   .top-bottom-description-img {
     border-radius: 1vw;
-    max-width: 75vw;
+    max-width: 90vw;
     max-height: 80vh;
     margin-top: 10%;
     margin-bottom: 10%;
