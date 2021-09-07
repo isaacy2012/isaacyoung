@@ -129,6 +129,24 @@
   }
 
   .description-img {
+    border-radius: 1vw;
+    max-width: 75vw;
+    max-height: 80vh;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+
+  .top-description-img {
+    margin-bottom: 5% !important;
+  }
+
+  .bottom-description-img {
+    margin-top: 5% !important;
+  }
+
+  .top-bottom-description-img {
+    border-radius: 1vw;
     max-width: 75vw;
     max-height: 80vh;
     margin-top: 10%;
