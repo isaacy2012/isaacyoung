@@ -18,7 +18,17 @@
   }
 
   .description-img {
-    max-width: 25vw;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    max-width: 20vw;
+    max-height: none;
+    margin-right: 1vw;
+  }
+
+  .top-bottom-description-img {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    max-width: 50vw;
     max-height: none;
     margin-right: 1vw;
   }
