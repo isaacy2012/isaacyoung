@@ -129,6 +129,20 @@ ul {
   justify-content: center;
 }
 
+.a-nopadding {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.bold-link {
+  margin-bottom: 0;
+  margin-top: 0;
+  display: flex;
+  gap: 1ch;
+  align-items: center;
+  flex-direction: row;
+}
+
 .homescreen-panel {
   overflow: hidden;
   min-height: 60vh;
