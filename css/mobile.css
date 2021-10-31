@@ -5,6 +5,15 @@
     padding-right: 0;
   }
 
+  .leftcolumn {
+    text-align: left;
+  }
+
+  .column {
+    width: 80%;
+    max-width: 80%;
+  }
+
   #container {
     scroll-snap-type: none;
     overflow: auto;
@@ -51,7 +60,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: -18%;
+    margin-top: -10.3%;
   }
 
   .photography-title {
