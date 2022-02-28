@@ -31,6 +31,12 @@
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-3GRS80LLTW"></script>
   <script>
+    // EU DISABLE
+    const offset = new Date().getTimezoneOffset();
+    if (1 > offset && offset > -130 ){
+      window['ga-disable-G-3GRS80LLTW'] = true
+    }
+
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
