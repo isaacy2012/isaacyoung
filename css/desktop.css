@@ -1,4 +1,4 @@
-@media all and (min-width: 800px) {
+@media all and (min-width: 1100px) {
   #container {
     height: 100vh;
     scroll-snap-type: y mandatory;
@@ -91,7 +91,7 @@
   }
 
   .child {
-    max-height: 100vw;
+    max-height: 100vh;
     overflow: hidden;
   }
 
